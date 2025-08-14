@@ -42,26 +42,26 @@ function App() {
 
             {/* Navigation Links */}
             <div className="hidden md:flex items-center space-x-8">
-              <Link to="https://deepware.vercel.app/" className={`hover:text-blue-500 transition-colors ${
+              <a href="https://deepware.vercel.app/" className={`hover:text-blue-500 transition-colors ${
                 isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
               }`}>
                 Home
-              </Link>
-              <Link to="https://deepware.vercel.app/#services" className={`hover:text-blue-500 transition-colors ${
+              </a>
+              <a href="https://deepware.vercel.app/#services" className={`hover:text-blue-500 transition-colors ${
                 isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
               }`}>
                 Services
-              </Link>
-              <Link to="https://deepware.vercel.app/#testimonials" className={`hover:text-blue-500 transition-colors ${
+              </a>
+              <a href="https://deepware.vercel.app/#testimonials" className={`hover:text-blue-500 transition-colors ${
                 isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
               }`}>
                 Testimonials
-              </Link>
-              <Link to="https://deepware.vercel.app/register" className={`hover:text-blue-500 transition-colors ${
+              </a>
+              <a href="https://deepware.vercel.app/register" className={`hover:text-blue-500 transition-colors ${
                 isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
               }`}>
                 Start Project
-              </Link>
+              </a>
               
               {/* Theme Toggle */}
               <button
