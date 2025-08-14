@@ -57,11 +57,11 @@ function App() {
               }`}>
                 Testimonials
               </a>
-              <Link to="https://deepware.vercel.app/register" className={`hover:text-blue-500 transition-colors ${
+              <a href="https://deepware.vercel.app/register" className={`hover:text-blue-500 transition-colors ${
                 isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
               }`}>
                 Start Project
-              </Link>
+              </a>
               
               {/* Theme Toggle */}
               <button
