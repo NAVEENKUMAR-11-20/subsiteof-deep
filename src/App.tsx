@@ -41,28 +41,28 @@ function App() {
               <span className={`font-bold text-xl transition-colors ${
                 isScrolled ? 'text-gray-900 dark:text-white' : 'text-white'
               }`}>
-                DeepWare
+                DenveX
                </span>
             </div>
 
             {/* Navigation Links */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="https://deepware.vercel.app/" className={`hover:text-blue-500 transition-colors ${
+              <a href="https://denvex.vercel.app/" className={`hover:text-blue-500 transition-colors ${
                 isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
               }`}>
                 Home
               </a>
-              <a href="https://deepware.vercel.app/#services" className={`hover:text-blue-500 transition-colors ${
+              <a href="https://denvex.vercel.app/#services" className={`hover:text-blue-500 transition-colors ${
                 isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
               }`}>
                 Services
               </a>
-              <a href="https://deepware.vercel.app/#testimonials" className={`hover:text-blue-500 transition-colors ${
+              <a href="https://denvex.vercel.app/#testimonials" className={`hover:text-blue-500 transition-colors ${
                 isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
               }`}>
                 Testimonials
               </a>
-              <a href="https://deepware.vercel.app/register" className={`hover:text-blue-500 transition-colors ${
+              <a href="https://denvex.vercel.app/register" className={`hover:text-blue-500 transition-colors ${
                 isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
               }`}>
                 Start Project
@@ -237,7 +237,7 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-                Why Choose DeepWare 
+                Why Choose DenveX 
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                 We combine technical expertise with creative vision to deliver exceptional web solutions
