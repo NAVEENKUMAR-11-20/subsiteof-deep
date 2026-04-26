@@ -16,16 +16,15 @@ function App() {
   return (
     <div className="min-h-screen premium-bg text-white selection:bg-blue-500/30">
       {/* Navigation Bar */}
-      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-slate-950/80 backdrop-blur-md border-b border-white/10 shadow-lg' 
+      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
+          ? 'bg-slate-950/80 backdrop-blur-md border-b border-white/10 shadow-lg'
           : 'bg-transparent'
-      }`}>
+        }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <img src="/headlogo.png" alt="DenveX Logo" className="h-10 w-auto" />
+              <img src="/logo.png" alt="DenveX Logo" className="h-10 w-auto" />
             </div>
 
             {/* Navigation Links */}
@@ -68,7 +67,7 @@ function App() {
 
       {/* Main Content */}
       <main className="bg-transparent">
-        
+
         {/* What is Web Development Section */}
         <section className="py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -77,8 +76,8 @@ function App() {
                 What is Web Development?
               </h2>
               <p className="text-lg text-gray-400 leading-relaxed">
-                Web development is the comprehensive process of creating websites and web applications that deliver exceptional user experiences. 
-                It encompasses everything from crafting elegant user interfaces to building robust server infrastructure, ensuring your digital 
+                Web development is the comprehensive process of creating websites and web applications that deliver exceptional user experiences.
+                It encompasses everything from crafting elegant user interfaces to building robust server infrastructure, ensuring your digital
                 presence is both visually compelling and technically superior.
               </p>
             </div>
@@ -105,7 +104,7 @@ function App() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-4">Frontend Development</h3>
                 <p className="text-gray-400 leading-relaxed">
-                  Creating beautiful, interactive user interfaces with modern frameworks like React, Vue, and Angular. 
+                  Creating beautiful, interactive user interfaces with modern frameworks like React, Vue, and Angular.
                   We focus on responsive design, performance optimization, and seamless user experiences.
                 </p>
               </div>
@@ -117,7 +116,7 @@ function App() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-4">Backend Development</h3>
                 <p className="text-gray-400 leading-relaxed">
-                  Building robust server-side applications, APIs, and database architectures. We ensure your applications 
+                  Building robust server-side applications, APIs, and database architectures. We ensure your applications
                   are scalable, secure, and perform exceptionally under any load.
                 </p>
               </div>
@@ -129,7 +128,7 @@ function App() {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-4">Full Stack Development</h3>
                 <p className="text-gray-400 leading-relaxed">
-                  Complete end-to-end development solutions combining frontend and backend expertise. 
+                  Complete end-to-end development solutions combining frontend and backend expertise.
                   We handle every aspect of your project from concept to deployment.
                 </p>
               </div>
@@ -190,7 +189,7 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-                Why Choose DenveX 
+                Why Choose DenveX
               </h2>
               <p className="text-lg text-gray-400 max-w-2xl mx-auto">
                 We combine technical expertise with creative vision to deliver exceptional web solutions
