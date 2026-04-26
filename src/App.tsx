@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Moon, Sun, Code, Database, Layers, Zap, Shield, Smartphone, ArrowRight, Link } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Moon, Sun, Code, Database, Layers, Zap, Shield, Smartphone, ArrowRight } from 'lucide-react';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -47,22 +47,22 @@ function App() {
 
             {/* Navigation Links */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="https://denvex.vercel.app/" className={`hover:text-blue-500 transition-colors ${
+              <a href="https://www.denvex.in/" className={`hover:text-blue-500 transition-colors ${
                 isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
               }`}>
                 Home
               </a>
-              <a href="https://denvex.vercel.app/#services" className={`hover:text-blue-500 transition-colors ${
+              <a href="https://www.denvex.in/#services" className={`hover:text-blue-500 transition-colors ${
                 isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
               }`}>
                 Services
               </a>
-              <a href="https://denvex.vercel.app/#testimonials" className={`hover:text-blue-500 transition-colors ${
+              <a href="https://www.denvex.in/#testimonials" className={`hover:text-blue-500 transition-colors ${
                 isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
               }`}>
                 Testimonials
               </a>
-              <a href="https://denvex.vercel.app/register" className={`hover:text-blue-500 transition-colors ${
+              <a href="https://www.denvex.in/register" className={`hover:text-blue-500 transition-colors ${
                 isScrolled ? 'text-gray-700 dark:text-gray-300' : 'text-white'
               }`}>
                 Start Project
