@@ -51,7 +51,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative min-h-[80vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[50vh] flex items-center overflow-hidden pt-24">
         <div className="absolute inset-0 bg-gradient-to-b from-blue-600/10 to-transparent"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <div className="animate-fade-in-up">
@@ -69,7 +69,7 @@ function App() {
       <main className="bg-transparent">
 
         {/* What is Web Development Section */}
-        <section className="py-24">
+        <section className="py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8">
